@@ -16,7 +16,7 @@ data:extend{
     name = "fusion-reactor-mk2-equipment",
     sprite =
     {
-      filename = "__base__/graphics/equipment/fusion-reactor-equipment.png",
+      filename = gfx_path .. "equipment/fusion-reactor-mk2-equipment.png",
       width = 128,
       height = 128,
       priority = "medium"
