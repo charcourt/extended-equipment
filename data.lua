@@ -1,0 +1,1 @@
+require("prototypes.personal-roboport-mk3-equipment")
