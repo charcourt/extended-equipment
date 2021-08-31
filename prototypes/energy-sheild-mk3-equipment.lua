@@ -7,7 +7,7 @@ data:extend{
     icon_size = 64, icon_mipmaps = 4,
     placed_as_equipment_result = "energy-shield-mk3-equipment",
     subgroup = "military-equipment",
-    order = "b[shield]-c[energy-shield-equipment-mk3]",
+    order = "a[shield]-c[energy-shield-equipment-mk3]",
     stack_size = 20,
     default_request_amount = 5
   },
@@ -78,6 +78,6 @@ data:extend{
       },
       time = 30
     },
-    order = "g-e-b"
+    order = "g-e-c"
   }
 }

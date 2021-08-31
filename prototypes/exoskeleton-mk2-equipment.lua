@@ -7,7 +7,7 @@ data:extend{
     icon_size = 64, icon_mipmaps = 4,
     placed_as_equipment_result = "exoskeleton-mk2-equipment",
     subgroup = "equipment",
-    order = "e[exoskeleton]-b[exoskeleton-mk2-equipment]",
+    order = "d[exoskeleton]-b[exoskeleton-mk2-equipment]",
     stack_size = 10,
     default_request_amount = 5
   },
@@ -77,6 +77,6 @@ data:extend{
       },
       time = 30
     },
-    order = "g-h"
+    order = "g-h-a"
   }
 }

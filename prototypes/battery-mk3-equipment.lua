@@ -74,6 +74,6 @@ data:extend{
       },
       time = 30
     },
-    order = "g-i-b"
+    order = "g-i-c"
   }
 }
