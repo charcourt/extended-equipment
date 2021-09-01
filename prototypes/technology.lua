@@ -6,7 +6,7 @@ data:extend{
     icons = util.technology_icon_constant_equipment(mod_gfx "technology/battery-mk3-equipment.png"),
 	  icon_size = 128,
     icon_mipmaps = 4,
-    prerequisites = {"battery-mk2-equipment", "utility-science-pack"},
+    prerequisites = {"battery-mk2-equipment", "utility-science-pack", "effectivity-module"},
     effects =
     {
       {
@@ -34,7 +34,7 @@ data:extend{
     icons = util.technology_icon_constant_equipment(mod_gfx "technology/energy-shield-mk3-equipment.png"),
 	  icon_size = 128,
     icon_mipmaps = 4,
-    prerequisites = {"energy-shield-mk2-equipment", "military-4"},
+    prerequisites = {"energy-shield-mk2-equipment", "military-4", "effectivity-module"},
     effects =
     {
       {
@@ -63,7 +63,7 @@ data:extend{
     localised_description = {"technology-description.exoskeleton-equipment"},
     icons = util.technology_icon_constant_equipment(mod_gfx "technology/exoskeleton-mk2-equipment.png"),
 	  icon_size = 256, icon_mipmaps = 4,
-    prerequisites = {"exoskeleton-equipment", "production-science-pack", "utility-science-pack"},
+    prerequisites = {"exoskeleton-equipment", "production-science-pack", "utility-science-pack", "speed-module"},
     effects =
     {
       {
@@ -92,7 +92,7 @@ data:extend{
     localised_description = {"technology-description.fusion-reactor-equipment"},
     icons = util.technology_icon_constant_equipment(mod_gfx "technology/fusion-reactor-mk2-equipment.png"),
 	  icon_size = 256, icon_mipmaps = 4,
-    prerequisites = {"fusion-reactor-equipment", "production-science-pack"},
+    prerequisites = {"fusion-reactor-equipment", "production-science-pack", "effectivity-module-3"},
     effects =
     {
       {
@@ -122,7 +122,7 @@ data:extend{
     icons = util.technology_icon_constant_equipment(mod_gfx "technology/personal-roboport-mk3-equipment.png"),
     icon_size = 256,
     icon_mipmaps = 4,
-    prerequisites = {"personal-roboport-mk2-equipment", "production-science-pack"},
+    prerequisites = {"personal-roboport-mk2-equipment", "production-science-pack", "effectivity-module"},
     effects =
     {
       {
