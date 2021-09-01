@@ -3,7 +3,7 @@ data:extend{
     type = "recipe",
     name = "exteq_battery-mk3-equipment",
     enabled = false,
-    energy_required = 10,
+    energy_required = 20,
     ingredients =
     {
 	    {"low-density-structure", 50},
@@ -11,13 +11,14 @@ data:extend{
 	    {"processing-unit", 150},
       {"effectivity-module", 5}
     },
-    result = "exteq_battery-mk3-equipment"
+    result = "exteq_battery-mk3-equipment",
+    requester_paste_multiplier = 1
   },
   {
     type = "recipe",
     name = "exteq_energy-shield-mk3-equipment",
     enabled = false,
-    energy_required = 10,
+    energy_required = 20,
     ingredients =
     {
       {"energy-shield-mk2-equipment", 10},
@@ -25,13 +26,14 @@ data:extend{
       {"processing-unit", 50},
       {"effectivity-module", 5}
     },
-    result = "exteq_energy-shield-mk3-equipment"
+    result = "exteq_energy-shield-mk3-equipment",
+    requester_paste_multiplier = 1
   },
   {
     type = "recipe",
     name = "exteq_exoskeleton-mk2-equipment",
     enabled = false,
-    energy_required = 10,
+    energy_required = 20,
     ingredients =
     {
       {"exoskeleton-equipment", 5},
@@ -40,13 +42,14 @@ data:extend{
       {"electric-engine-unit", 150},
       {"speed-module", 5}
     },
-    result = "exteq_exoskeleton-mk2-equipment"
+    result = "exteq_exoskeleton-mk2-equipment",
+    requester_paste_multiplier = 1
   },
   {
     type = "recipe",
     name = "exteq_fusion-reactor-mk2-equipment",
     enabled = false,
-    energy_required = 10,
+    energy_required = 20,
     ingredients =
     {
 	    {"low-density-structure", 250},
@@ -54,13 +57,14 @@ data:extend{
 	    {"processing-unit", 1000},
       {"effectivity-module-3", 5}
     },
-    result = "exteq_fusion-reactor-mk2-equipment"
+    result = "exteq_fusion-reactor-mk2-equipment",
+    requester_paste_multiplier = 1
   },
   {
     type = "recipe",
     name = "exteq_personal-roboport-mk3-equipment",
     enabled = false,
-    energy_required = 40,
+    energy_required = 20,
     ingredients =
     {
       {"personal-roboport-mk2-equipment", 5},
@@ -68,7 +72,8 @@ data:extend{
       {"processing-unit", 500},
       {"effectivity-module", 5}
     },
-    result = "exteq_personal-roboport-mk3-equipment"
+    result = "exteq_personal-roboport-mk3-equipment",
+    requester_paste_multiplier = 1
   },
   {
     type = "recipe",

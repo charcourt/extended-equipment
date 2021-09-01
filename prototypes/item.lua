@@ -9,8 +9,8 @@ data:extend{
     placed_as_equipment_result = "exteq_battery-mk3-equipment",
     subgroup = "equipment",
     order = "c[battery]-c[battery-equipment-mk3]",
-    stack_size = 20,
-    default_request_amount = 5
+    stack_size = 10,
+    default_request_amount = 1
   },
   {
     type = "item",
@@ -21,8 +21,8 @@ data:extend{
     placed_as_equipment_result = "exteq_energy-shield-mk3-equipment",
     subgroup = "military-equipment",
     order = "a[shield]-c[energy-shield-equipment-mk3]",
-    stack_size = 20,
-    default_request_amount = 5
+    stack_size = 10,
+    default_request_amount = 1
   },
   {
     type = "item",
@@ -34,7 +34,7 @@ data:extend{
     subgroup = "equipment",
     order = "d[exoskeleton]-b[exoskeleton-mk2-equipment]",
     stack_size = 10,
-    default_request_amount = 5
+    default_request_amount = 1
   },
   {
     type = "item",
@@ -57,8 +57,8 @@ data:extend{
     placed_as_equipment_result = "exteq_personal-roboport-mk3-equipment",
     subgroup = "equipment",
     order = "e[robotics]-c[personal-roboport-mk3-equipment]",
-    default_request_amount = 1,
-    stack_size = 20,
+    stack_size = 10,
+    default_request_amount = 1
   },
   {
     type = "armor",
