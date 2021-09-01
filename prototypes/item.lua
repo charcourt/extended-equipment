@@ -3,6 +3,7 @@ data:extend{
   {
     type = "item",
     name = "exteq_battery-mk3-equipment",
+    localised_description = {"item-description.battery-equipment"},
     icon = mod_gfx "icons/battery-mk3-equipment.png",
     icon_size = 64, icon_mipmaps = 4,
     placed_as_equipment_result = "exteq_battery-mk3-equipment",
@@ -14,6 +15,7 @@ data:extend{
   {
     type = "item",
     name = "exteq_energy-shield-mk3-equipment",
+    localised_description = {"item-description.energy-shield-equipment"},
     icon = mod_gfx "icons/energy-shield-mk3-equipment.png",
     icon_size = 64, icon_mipmaps = 4,
     placed_as_equipment_result = "exteq_energy-shield-mk3-equipment",
@@ -25,6 +27,7 @@ data:extend{
   {
     type = "item",
     name = "exteq_exoskeleton-mk2-equipment",
+    localised_description = {"item-description.exoskeleton-equipment"},
     icon = mod_gfx "icons/exoskeleton-mk2-equipment.png",
     icon_size = 64, icon_mipmaps = 4,
     placed_as_equipment_result = "exteq_exoskeleton-mk2-equipment",
@@ -36,6 +39,7 @@ data:extend{
   {
     type = "item",
     name = "exteq_fusion-reactor-mk2-equipment",
+    localised_description = {"item-description.fusion-reactor-equipment"},
     icon = mod_gfx "icons/fusion-reactor-mk2-equipment.png",
     icon_size = 64, icon_mipmaps = 4,
     placed_as_equipment_result = "exteq_fusion-reactor-mk2-equipment",
@@ -47,6 +51,7 @@ data:extend{
   {
     type = "item",
     name = "exteq_personal-roboport-mk3-equipment",
+    localised_description = {"item-description.personal-roboport-equipment"},
     icon = mod_gfx "icons/personal-roboport-mk3-equipment.png",
     icon_size = 64, icon_mipmaps = 4,
     placed_as_equipment_result = "exteq_personal-roboport-mk3-equipment",

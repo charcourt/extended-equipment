@@ -60,6 +60,7 @@ data:extend{
   {
     type = "technology",
     name = "exteq_exoskeleton-mk2-equipment",
+    localised_description = {"technology-description.exoskeleton-equipment"},
     icons = util.technology_icon_constant_equipment(mod_gfx "technology/exoskeleton-mk2-equipment.png"),
 	  icon_size = 256, icon_mipmaps = 4,
     prerequisites = {"exoskeleton-equipment", "production-science-pack", "utility-science-pack"},
@@ -88,6 +89,7 @@ data:extend{
   {
     type = "technology",
     name = "exteq_fusion-reactor-mk2-equipment",
+    localised_description = {"technology-description.fusion-reactor-equipment"},
     icons = util.technology_icon_constant_equipment(mod_gfx "technology/fusion-reactor-mk2-equipment.png"),
 	  icon_size = 256, icon_mipmaps = 4,
     prerequisites = {"fusion-reactor-equipment", "production-science-pack"},
