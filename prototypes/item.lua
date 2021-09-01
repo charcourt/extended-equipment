@@ -44,7 +44,7 @@ data:extend{
     icon_size = 64, icon_mipmaps = 4,
     placed_as_equipment_result = "exteq_fusion-reactor-mk2-equipment",
     subgroup = "equipment",
-    order = "a[energy-source]-b[fusion-reactor]",
+    order = "a[energy-source]-bb[fusion-reactor]",
     stack_size = 10,
     default_request_amount = 1
   },
