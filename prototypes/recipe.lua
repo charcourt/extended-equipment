@@ -6,9 +6,9 @@ data:extend{
     energy_required = 20,
     ingredients =
     {
-	    {"low-density-structure", 50},
+	    {"low-density-structure", 10},
       {"battery-mk2-equipment", 10},
-	    {"processing-unit", 150},
+	    {"processing-unit", 30},
       {"effectivity-module", 5}
     },
     result = "exteq_battery-mk3-equipment",
@@ -22,8 +22,8 @@ data:extend{
     ingredients =
     {
       {"energy-shield-mk2-equipment", 10},
-	    {"low-density-structure", 50},
-      {"processing-unit", 50},
+	    {"low-density-structure", 10},
+      {"processing-unit", 10},
       {"effectivity-module", 5}
     },
     result = "exteq_energy-shield-mk3-equipment",
@@ -37,9 +37,9 @@ data:extend{
     ingredients =
     {
       {"exoskeleton-equipment", 5},
-	    {"low-density-structure", 50},
-      {"processing-unit", 50},
-      {"electric-engine-unit", 150},
+	    {"low-density-structure", 10},
+      {"processing-unit", 20},
+      {"electric-engine-unit", 60},
       {"speed-module", 5}
     },
     result = "exteq_exoskeleton-mk2-equipment",
@@ -52,9 +52,9 @@ data:extend{
     energy_required = 20,
     ingredients =
     {
-	    {"low-density-structure", 250},
+	    {"low-density-structure", 100},
       {"fusion-reactor-equipment", 5},
-	    {"processing-unit", 1000},
+	    {"processing-unit", 500},
       {"effectivity-module-3", 5}
     },
     result = "exteq_fusion-reactor-mk2-equipment",
@@ -68,8 +68,8 @@ data:extend{
     ingredients =
     {
       {"personal-roboport-mk2-equipment", 5},
-      {"low-density-structure", 100},
-      {"processing-unit", 500},
+      {"low-density-structure", 40},
+      {"processing-unit", 200},
       {"effectivity-module", 5}
     },
     result = "exteq_personal-roboport-mk3-equipment",
