@@ -121,7 +121,7 @@ data:extend{
     {
       type = "electric",
       buffer_capacity = "100MJ",
-      input_flow_limit = "10MW",
+      input_flow_limit = "12MW",
       usage_priority = "secondary-input"
     },
     charging_energy = "1.5MW",
